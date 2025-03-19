@@ -1,0 +1,45 @@
+{
+  "name": "Histobandung",
+  "short_name": "Histobandung",
+  "description": "Histobandung menyediakan materi untuk mempelajari sejarah Kota Bandung seperti membahas bangunan bersejarah yang disertain foto-foto tempo dulu.",
+  "start_url": "/",
+  "theme_color": "#405D72",
+  "background_color": "#010825",
+  "display": "standalone",
+  "orientation": "any",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/screenshot/ss-narrow.png",
+      "type": "image/jpeg",
+      "sizes": "347x667",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/images/screenshot/ss-wide.png",
+      "type": "image/png",
+      "sizes": "1349x635",
+      "form_factor": "wide"
+    }
+  ]
+}

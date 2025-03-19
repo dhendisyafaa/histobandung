@@ -1,0 +1,36 @@
+{
+  "heroSection": {
+    "preTitle": "Eksplorasi Sejarah Kota Bandung",
+    "title": "Bandung Tempo Doeloe",
+    "subTitle": [
+      "Menelusuri ",
+      "<span class='font-bold'>jejak sejarah, tempat bersejarah, dan kisah menarik</span> ",
+      "di balik berbagai lokasi ikonik di Kota Bandung. ",
+      "<span class='font-bold'>Pelajari sejarah dan temukan cerita tersembunyi</span> ",
+      "tentang kota yang penuh kenangan ini."
+    ],
+    "buttonText": "Jelajahi Sejarah"
+  },
+  "cardsSection": {
+    "title": "Siap mengenal sejarah Bandung lebih dalam?",
+    "subTitle": "Setelah mengenal sejarah Bandung, kamu akan melihat kota ini dari perspektif yang berbeda. Jangan berhenti di sini! Lakukan 4 hal ini untuk mengeksplorasi Bandung lebih jauh!",
+    "cards": [
+      {
+        "id": 1,
+        "image": "/images/cards/card-bangunan.png",
+        "title": "BANGUNAN BERSEJARAH",
+        "description": "Lihat sejarah bangunan bersejarah di Bandung dengan foto tempo dulu.",
+        "buttonText": "Lihat sejarahnya",
+        "href": "/bangunan"
+      },
+      {
+        "id": 2,
+        "image": "/images/cards/card-quiz.png",
+        "title": "SEBERAPA TAU KAMU TENTANG SEJARAH BANDUNG?",
+        "description": "Uji pengetahuanmu tentang sejarah Kota Bandung melalui kuis interaktif ini!",
+        "buttonText": "Mulai Kuis",
+        "href": "/quiz-sejarah"
+      }
+    ]
+  }
+}
