@@ -55,7 +55,7 @@ function QuizQuestionList() {
     const player = JSON.parse(
       localStorage.getItem("histobandung-quiz") || "{}"
     );
-    const currentScore = isCorrect ? player.score + 10 : player.score;
+    const currentScore = isCorrect ? player.score + 20 : player.score;
     const updatedPlayer = { ...player, score: currentScore };
 
     localStorage.setItem("histobandung-quiz", JSON.stringify(updatedPlayer));
@@ -73,7 +73,7 @@ function QuizQuestionList() {
     <>
       <form
         onSubmit={handleOnSubmitAnswer}
-        className="px-4 mx-auto container flex flex-col items-center space-y-5"
+        className="px-4 mt-5 mx-auto container flex flex-col items-center space-y-5"
       >
         <p className="text-xl md:text-3xl font-bold text-center">
           {currentQuestion.question}

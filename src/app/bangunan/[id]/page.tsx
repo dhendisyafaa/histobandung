@@ -3,7 +3,6 @@
 import Image from "next/image";
 import { useParams } from "next/navigation";
 
-// Data sementara (bisa diganti dengan fetching dari database)
 const dataBangunan = [
   {
     id: 1,
@@ -68,10 +67,9 @@ const dataBangunan = [
 ];
 
 export default function BangunanDetail() {
-  const params = useParams(); // Ambil parameter dari URL
-  const id = params.id; // Ambil ID dari URL
+  const params = useParams();
+  const id = params.id;
 
-  // Cari data bangunan berdasarkan ID
   const bangunan = dataBangunan.find((b) => b.id.toString() === id);
 
   if (!bangunan) {
@@ -85,7 +83,6 @@ export default function BangunanDetail() {
   return (
     <div className="container mx-auto px-4 lg:px-10 py-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-        {/* Gambar Utama & Thumbnails */}
         <div>
           <Image
             src={bangunan.image}
@@ -107,8 +104,6 @@ export default function BangunanDetail() {
             ))}
           </div>
         </div>
-
-        {/* Informasi Bangunan */}
         <div>
           <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
             {bangunan.title}
@@ -118,13 +113,11 @@ export default function BangunanDetail() {
             {bangunan.masa_pembangunan.tahun_selesai}
           </p>
           <p className="text-gray-600 dark:text-gray-400 mt-1">
-            📍 {bangunan.address}
+            {bangunan.address}
           </p>
           <p className="mt-4 text-gray-700 dark:text-gray-300">
             {bangunan.sejarah}
           </p>
-
-          {/* Tombol Pelajari Lebih Lanjut */}
           <a
             href={bangunan.referensi}
             target="_blank"

@@ -28,7 +28,7 @@ const funFactData = [
 
 export default function FunFactList() {
   return (
-    <div className="container mx-auto px-4 lg:px-10 mt-10">
+    <div className="container mx-auto px-4 lg:px-10 my-10">
       <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
         Kumpulan Fun-Fact Bangunan Bersejarah
       </h1>
@@ -39,7 +39,6 @@ export default function FunFactList() {
             key={item.id}
             className="relative group overflow-hidden rounded-lg shadow-md border border-gray-300 hover:shadow-lg transition-all"
           >
-            {/* Gambar Bangunan */}
             <Image
               src={item.image}
               width={500}
@@ -47,8 +46,6 @@ export default function FunFactList() {
               alt={item.title}
               className="w-full h-60 object-cover"
             />
-
-            {/* Konten Fun Fact */}
             <div className="p-4 h-full bg-white dark:bg-black">
               <h3 className="text-xl font-semibold text-primary">
                 {item.title}
@@ -57,8 +54,6 @@ export default function FunFactList() {
                 {item.fact}
               </p>
             </div>
-
-            {/* Tombol Muncul Saat Hover */}
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
               <Link href={`/bangunan/${item.id}`} passHref>
                 <button className="px-4 py-2 text-white bg-primary rounded-lg hover:bg-primary-dark transition-all">

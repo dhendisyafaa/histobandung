@@ -74,7 +74,7 @@ export default function QuizPage() {
         </div>
         <div className="hidden sm:block -z-10 relative w-[50vw] h-[100vh] aspect-square">
           <Image
-            src="/images/pattern-virus.png"
+            src="/images/cover-quiz.png"
             alt="virus-pattern"
             fill
             objectFit="cover"

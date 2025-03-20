@@ -53,6 +53,18 @@ export default function NavigationMenuNavbar() {
       description:
         "Kumpulan fakta unik dan menarik tentang bangunan bersejarah di Bandung.",
     },
+    {
+      title: "Tempo Doeloe",
+      href: "/tempo-dulu",
+      description:
+        "Galeri foto keadaan Bandung tempo dulu yang menarik untuk dilihat.",
+    },
+    {
+      title: "Kuis",
+      href: "/quiz",
+      description:
+        "Uji pemahaman kalian setelah mengexplorasi sejarah Kota Bandung",
+    },
   ];
 
   return (

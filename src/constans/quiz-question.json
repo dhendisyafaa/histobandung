@@ -1,122 +1,62 @@
 [
   {
     "id": 1,
-    "question": "Manakah berikut ini yang merupakan virus yang ditularkan melalui nyamuk?",
+    "question": "Apa fungsi awal dari Gedung Sate sebelum menjadi Kantor Gubernur Jawa Barat?",
     "option": {
-      "a": "Virus influenza (Flu)",
-      "b": "Virus dengue",
-      "c": "Virus rabies",
-      "d": "Virus polio"
+      "a": "Museum Sejarah Bandung",
+      "b": "Pusat Perdagangan Kolonial",
+      "c": "Kantor Departemen Pekerjaan Umum dan Pengairan",
+      "d": "Hotel untuk pejabat Belanda"
     },
-    "answer": "b",
-    "reason": "Virus dengue ditularkan melalui gigitan langsung pada tubuh oleh nyamuk Aedes Aegypti atau Aedes Albopictus."
+    "answer": "c",
+    "reason": "Gedung Sate awalnya digunakan sebagai kantor Departemen Pekerjaan Umum dan Pengairan pada masa Hindia Belanda."
   },
   {
     "id": 2,
-    "question": "Virus mana yang menyerang sistem kekebalan tubuh manusia?",
+    "question": "Monumen Perjuangan Rakyat Jawa Barat memiliki 5 tugu yang melambangkan?",
     "option": {
-      "a": "Virus hepatitis",
-      "b": "Virus chikungunya",
-      "c": "Virus human immunodeficiency virus (HIV)",
-      "d": "Virus ebola"
+      "a": "Lima Kota di Jawa Barat",
+      "b": "Pancasila",
+      "c": "Lima Bentuk Perlawanan",
+      "d": "Lima Presiden Pertama Indonesia"
     },
-    "answer": "c",
-    "reason": "HIV menyerang sel T-CD4, komponen penting dalam sistem kekebalan tubuh manusia, sehingga menyebabkan imunodefisiensi dan menyebabkan tubuh lemah."
+    "answer": "b",
+    "reason": "Lima tugu yang ada di Monumen Perjuangan Rakyat Jawa Barat melambangkan dasar negara Indonesia, yaitu Pancasila."
   },
   {
     "id": 3,
-    "question": "Gejala khas yang biasanya dialami oleh pasien chikungunya adalah",
+    "question": "Apa yang membuat Gedung Merdeka menjadi simbol rasisme pada masa kolonial Belanda?",
     "option": {
-      "a": "Diare dan dehidrasi",
-      "b": "Demam tinggi dan nyeri sendi",
-      "c": "Batuk kronis dan sesak napas",
-      "d": "Ruam kulit tanpa demam"
+      "a": "Hanya orang Eropa yang boleh masuk",
+      "b": "Gedung ini dibangun di atas tanah milik pribumi",
+      "c": "Gedung ini hanya digunakan oleh tentara kolonial",
+      "d": "Gedung ini memiliki tulisan larangan masuk bagi pribumi"
     },
-    "answer": "b",
-    "reason": "Gejala utama chikungunya adalah demam mendadak disertai nyeri sendi yang parah, sering kali pada pergelangan tangan, lutut, atau pergelangan kaki."
+    "answer": "d",
+    "reason": "Gedung Merdeka awalnya merupakan tempat rekreasi orang Belanda dan memiliki tulisan larangan masuk bagi pribumi yang berbunyi ‘Verbodden voor Honden en Inlander’."
   },
   {
     "id": 4,
-    "question": "Berikut virus yang termasuk dalam famili Orthomyxoviridae adalah",
+    "question": "Apa makna dari bentuk Monumen Perjuangan Rakyat Jawa Barat yang menyerupai bambu?",
     "option": {
-      "a": "Virus Syncytial Respirasi (RSV)",
-      "b": "Varicella-Zoster Virus (VZV)",
-      "c": "Influenza (Flu)",
-      "d": "Herpes Simplex Virus (HSV)"
+      "a": "Melambangkan alat perang rakyat melawan penjajah",
+      "b": "Melambangkan sumber kehidupan masyarakat Bandung",
+      "c": "Sebagai penghormatan terhadap bangunan khas Sunda",
+      "d": "Sebagai lambang persatuan rakyat Jawa Barat"
     },
-    "answer": "c",
-    "reason": "Yang termasuk ke dalam famili Orthomyxoviridae hanyalah semua jenis virus influenza."
+    "answer": "a",
+    "reason": "Bentuk monumen yang menyerupai bambu melambangkan alat perang rakyat Indonesia, yaitu bambu runcing, yang digunakan dalam perjuangan melawan penjajah."
   },
   {
     "id": 5,
-    "question": "Jawaban yang benar tentang virus-virus yang menyebar di tempat umum adalah",
+    "question": "Apa tujuan utama dari perubahan nama Gedung Merdeka pada tahun 1955?",
     "option": {
-      "a": "Pilek, Influenza (Flu), Virus Syncytial Respirasi (RSV)",
-      "b": "Pilek, Human Papillomavirus (HPV), Influenza (Flu)",
-      "c": "Rubella, human immunodeficiency virus (HIV), Human Papillomavirus (HPV)",
-      "d": "Norovirus, human immunodeficiency virus  (HIV), Human Papillomavirus (HPV)"
+      "a": "Menghapus jejak kolonialisme Belanda",
+      "b": "Mempermudah administrasi pemerintahan",
+      "c": "Memperingati kemerdekaan Indonesia",
+      "d": "Menyambut Konferensi Asia Afrika"
     },
-    "answer": "a",
-    "reason": "3 virus yang menyebar di tempat umum di dalam opsi yang benar semua adalah opsi a yaitu pilek, Influenza (Flu), Virus Syncytial Respirasi (RSV)."
-  },
-  {
-    "id": 6,
-    "question": "Virus yang memiliki bentuk yang khas, yaitu berbentuk bulat dengan diameter sekitar 180-200 nanometer adalah virus",
-    "option": {
-      "a": "Varicella-Zoster Virus (VZV)",
-      "b": "Human Papillomavirus (HPV)",
-      "c": "Herpes Simplex Virus (HSV)",
-      "d": "Human immunodeficiency virus (HIV)"
-    },
-    "answer": "a",
-    "reason": "Varicella-Zoster Virus (VZV) adalah virus yang memiliki bentuk yang khas, yaitu berbentuk bulat dengan diameter sekitar 180-200 nanometer."
-  },
-  {
-    "id": 7,
-    "question": "Virus yang pertama kali menyebar di tiongkok awal januari 2020 adalah virus",
-    "option": {
-      "a": "Human Papillomavirus (HPV)",
-      "b": "SARS-CoV-2",
-      "c": "Human immunodeficiency virus (HIV)",
-      "d": "Influenza (Flu)"
-    },
-    "answer": "a",
-    "reason": "Varicella-Zoster Virus (VZV) adalah virus yang memiliki bentuk yang khas, yaitu berbentuk bulat dengan diameter sekitar 180-200 nanometer."
-  },
-  {
-    "id": 8,
-    "question": "Agen infeksius yang termasuk dalam famili Paramyxoviridae dan memiliki struktur RNA untai tunggal, berpolaritas negatif, juga diselubungi oleh lipid.",
-    "option": {
-      "a": "Virus Syncytial Respirasi(infeksi saluran pernafasan)",
-      "b": "SARS-CoV-2",
-      "c": "Human immunodeficiency virus (HIV)",
-      "d": "Influenza (Flu)"
-    },
-    "answer": "b",
-    "reason": "SARS-CoV-2 adalah Virus yang pertama kali menyebar di tiongkok awal januari 2020"
-  },
-  {
-    "id": 9,
-    "question": "Apa dampak utama dari infeksi rubella pada wanita hamil?",
-    "option": {
-      "a": "Tidak ada dampak yang signifikan",
-      "b": "Menyebabkan demam tinggi",
-      "c": "Menyebabkan cacat lahir pada janin",
-      "d": "Menyebabkan pendarahan pada ibu hamil"
-    },
-    "answer": "c",
-    "reason": "Infeksi rubella pada wanita hamil, terutama pada trimester pertama, sangat berbahaya bagi janin. Virus rubella dapat menyebabkan kelainan kongenital seperti katarak, gangguan pendengaran, dan cacat jantung pada bayi yang dilahirkan. Ini dikenal sebagai sindrom rubella kongenital."
-  },
-  {
-    "id": 10,
-    "question": "Virus yang ditularkan melalui gigitan nyamuk Aedes aegypti dan Aedes albopictus yang terinfeksi adalah virus",
-    "option": {
-      "a": "Virus Dengue",
-      "b": "Virus Zika ",
-      "c": "Virus West Nile",
-      "d": "Polio"
-    },
-    "answer": "a",
-    "reason": "Virus Dengue adalah virus yang menyebabkan penyakit demam dengue, yang umumnya ditularkan melalui gigitan nyamuk Aedes aegypti dan Aedes albopictus yang terinfeksi."
+    "answer": "d",
+    "reason": "Gedung ini awalnya bernama Societeit Concordia dan kemudian diubah menjadi Gedung Merdeka untuk menyambut Konferensi Asia Afrika tahun 1955."
   }
 ]

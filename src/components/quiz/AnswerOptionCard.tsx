@@ -22,7 +22,9 @@ export default function AnswerOptionCard({
 
   return (
     <div
-      className="flex transition-all group bg-white items-center gap-3 p-3 w-full cursor-pointer rounded-xl border-2 border-gray-200 shadow-[0px_3px_0px_0px_theme('colors.gray.200')] [&:has(:checked)]:border-primary [&:has(:checked)]:shadow-[0px_3px_0px_0px_theme('colors.black')] [&:has(:checked)]:bg-primary/90"
+      className="flex transition-all group bg-background items-center gap-3 p-3 w-full cursor-pointer rounded-xl border-2 border-border shadow-md shadow-muted/50 
+      hover:border-primary hover:shadow-lg 
+      [&:has(:checked)]:border-primary [&:has(:checked)]:bg-primary [&:has(:checked)]:text-primary-foreground"
       onClick={handleOnClickCard}
     >
       <p className="group-[&:has(:checked)]:text-primary-foreground font-bold text-lg md:text-2xl">

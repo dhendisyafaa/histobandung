@@ -78,12 +78,12 @@ export default function FinishPage() {
   };
 
   return (
-    <div className="grid w-full h-full place-items-center container px-4">
+    <div className="grid w-full h-full place-items-center container px-4 mt-5">
       <div className="flex flex-col items-center mt-auto space-y-5">
         <div className="flex flex-col items-center space-y-6">
           <div className="block">
             <Image
-              src="/images/finish.svg"
+              src="/images/finish-illustration.png"
               alt="finish"
               width={200}
               height={200}
