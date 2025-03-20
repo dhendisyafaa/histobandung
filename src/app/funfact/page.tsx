@@ -5,24 +5,24 @@ import React from "react";
 const funFactData = [
   {
     id: 1,
+    title: "Gedung Merdeka",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/0/01/Gedung.Merdeka.jpg",
+    fact: "Pada masa kolonial Belanda, terdapat tulisan 'Verbodden voor Honden en Inlander' di pintu masuk Gedung Merdeka, yang berarti 'Dilarang Masuk Bagi Anjing dan Pribumi'.",
+  },
+  {
+    id: 2,
     title: "Gedung Sate",
     image:
       "https://awsimages.detik.net.id/community/media/visual/2020/08/27/gedung-sate-1_169.jpeg?w=620",
     fact: "Di puncak Gedung Sate terdapat alarm yang akan menyala otomatis saat ada serangan musuh. Suaranya dulunya bisa terdengar hingga luar Kota Bandung, namun kini hanya dinyalakan sekali dalam setahun selama 10 menit saja.",
   },
   {
-    id: 2,
+    id: 3,
     title: "Monumen Perjuangan Rakyat Jawa Barat",
     image:
-      "https://img.bandung.go.id/images/news/2022/09/09/header/166272905353-yuk-mengenal-monumen-perjuangan-jawa-barat.jpeg",
+      "https://asset-2.tstatic.net/tribunnewswiki/foto/bank/images/1-Monumen-Perjuangan-Rakyat-Jawa-Barat.jpg",
     fact: "Tugu Monumen Perjuangan berbentuk seperti bambu runcing, melambangkan alat perang yang digunakan rakyat Indonesia dalam melawan penjajah.",
-  },
-  {
-    id: 3,
-    title: "Gedung Merdeka",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/0/01/Gedung.Merdeka.jpg",
-    fact: "Pada masa kolonial Belanda, terdapat tulisan 'Verbodden voor Honden en Inlander' di pintu masuk Gedung Merdeka, yang berarti 'Dilarang Masuk Bagi Anjing dan Pribumi'.",
   },
 ];
 

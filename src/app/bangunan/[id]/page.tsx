@@ -6,6 +6,26 @@ import { useParams } from "next/navigation";
 const dataBangunan = [
   {
     id: 1,
+    title: "Gedung Merdeka",
+    masa_pembangunan: {
+      tahun_mulai: 1895,
+      tahun_selesai: 1895,
+    },
+    address: "Jl. Asia Afrika No.65, Bandung",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/0/01/Gedung.Merdeka.jpg",
+    thumbnails: [
+      "https://d220hvstrn183r.cloudfront.net/attachment/376Concordia.large",
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZ-kCpcblmGIlMD2106UlkYhogqCAvTHlsNJxmLc0d0_qB08pyAveV97A6bHoiOHXbm_-2JoTYq2WobpQi0jZiv0ShxD7sHw5LewlYrVsvRpE6lGoUy6jqkh5QmjbgE9ihK0Ckdaof_Rg/s640/gedung_merdeka_bandung_tempo_dulu_05.jpg",
+      "https://indonesiakaya.com/pustaka-indonesia/gedung-merdeka-dari-societeit-concordia-hingga-museum-kaa/",
+    ],
+    sejarah:
+      "Gedung Merdeka awalnya merupakan Societeit Concordia, tempat rekreasi ekspatriat Belanda di Bandung. Dibangun tahun 1895, direnovasi tahun 1926 oleh arsitek Van Galen Last dan C.P. Wolff Schoemaker. Gedung ini menjadi saksi sejarah Konferensi Asia-Afrika tahun 1955 yang dipimpin oleh Presiden Soekarno. Sebelum itu, gedung ini pernah menjadi pusat kebudayaan saat pendudukan Jepang dan kemudian menjadi tempat pertemuan umum saat Bandung diduduki oleh tentara NICA. Kini, Gedung Merdeka menjadi Museum Konferensi Asia-Afrika.",
+    referensi:
+      "https://indonesiakaya.com/pustaka-indonesia/gedung-merdeka-dari-societeit-concordia-hingga-museum-kaa/",
+  },
+  {
+    id: 2,
     title: "Gedung Sate",
     masa_pembangunan: {
       tahun_mulai: 1920,
@@ -25,7 +45,7 @@ const dataBangunan = [
       "https://www.bandung.go.id/news/read/6954/hjkb212-mengenal-gedung-sate-oh-ternyata-ini-asal-usul-namanya",
   },
   {
-    id: 2,
+    id: 3,
     title: "Monumen Perjuangan Rakyat Jawa Barat",
     masa_pembangunan: {
       tahun_mulai: 1991,
@@ -33,36 +53,16 @@ const dataBangunan = [
     },
     address: "Jl. Dipatiukur No.48, Bandung",
     image:
-      "https://img.bandung.go.id/images/news/2022/09/09/header/166272905353-yuk-mengenal-monumen-perjuangan-jawa-barat.jpeg",
+      "https://asset-2.tstatic.net/tribunnewswiki/foto/bank/images/1-Monumen-Perjuangan-Rakyat-Jawa-Barat.jpg",
     thumbnails: [
       "https://tourbandung.id/wp-content/uploads/2019/05/Monumen-Perjuangan-BAndung-1030x541.jpg",
       "https://tourbandung.id/wp-content/uploads/2019/05/Monumen-Perjuangan-1030x541.jpg",
-      "https://img.bandung.go.id/images/news/2022/09/09/header/166272905353-yuk-mengenal-monumen-perjuangan-jawa-barat.jpeg",
+      "https://asset-2.tstatic.net/tribunnewswiki/foto/bank/images/1-Monumen-Perjuangan-Rakyat-Jawa-Barat.jpg",
     ],
     sejarah:
       "Monumen ini berhadapan langsung dengan Gedung Sate dan membelakangi Gunung Tangkuban Parahu. Dibangun selama 4 tahun sejak peletakan batu pertama pada 1 Juni 1991 dan diresmikan oleh Gubernur Jawa Barat, Raden Nana Nuriana pada 23 Agustus 1995. Monumen ini berbentuk bambu runcing yang melambangkan perjuangan rakyat Bandung dan terdiri dari 5 pilar tinggi yang mewakili Pancasila. Pada bagian bawah monumen terdapat museum yang memuat diorama perjuangan rakyat Jawa Barat dari masa kerajaan hingga kemerdekaan.",
     referensi:
       "https://www.bandung.go.id/news/read/6977/yuk-mengenal-monumen-perjuangan-jawa-barat",
-  },
-  {
-    id: 3,
-    title: "Gedung Merdeka",
-    masa_pembangunan: {
-      tahun_mulai: 1895,
-      tahun_selesai: 1895,
-    },
-    address: "Jl. Asia Afrika No.65, Bandung",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/0/01/Gedung.Merdeka.jpg",
-    thumbnails: [
-      "https://d220hvstrn183r.cloudfront.net/attachment/376Concordia.large",
-      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZ-kCpcblmGIlMD2106UlkYhogqCAvTHlsNJxmLc0d0_qB08pyAveV97A6bHoiOHXbm_-2JoTYq2WobpQi0jZiv0ShxD7sHw5LewlYrVsvRpE6lGoUy6jqkh5QmjbgE9ihK0Ckdaof_Rg/s640/gedung_merdeka_bandung_tempo_dulu_05.jpg",
-      "https://indonesiakaya.com/pustaka-indonesia/gedung-merdeka-dari-societeit-concordia-hingga-museum-kaa/",
-    ],
-    sejarah:
-      "Gedung Merdeka awalnya merupakan Societeit Concordia, tempat rekreasi ekspatriat Belanda di Bandung. Dibangun tahun 1895, direnovasi tahun 1926 oleh arsitek Van Galen Last dan C.P. Wolff Schoemaker. Gedung ini menjadi saksi sejarah Konferensi Asia-Afrika tahun 1955 yang dipimpin oleh Presiden Soekarno. Sebelum itu, gedung ini pernah menjadi pusat kebudayaan saat pendudukan Jepang dan kemudian menjadi tempat pertemuan umum saat Bandung diduduki oleh tentara NICA. Kini, Gedung Merdeka menjadi Museum Konferensi Asia-Afrika.",
-    referensi:
-      "https://indonesiakaya.com/pustaka-indonesia/gedung-merdeka-dari-societeit-concordia-hingga-museum-kaa/",
   },
 ];
 

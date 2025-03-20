@@ -5,6 +5,19 @@ import React from "react";
 const listBangunan = [
   {
     id: 1,
+    title: "Gedung Merdeka",
+    masa_pembangunan: {
+      tahun_mulai: 1895,
+      tahun_selesai: 1895,
+    },
+    address: "Jl. Asia Afrika No.65, Bandung",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/0/01/Gedung.Merdeka.jpg",
+    sejarah:
+      "Gedung Merdeka awalnya merupakan Societeit Concordia, tempat rekreasi ekspatriat Belanda di Bandung.",
+  },
+  {
+    id: 2,
     title: "Gedung Sate",
     masa_pembangunan: {
       tahun_mulai: 1920,
@@ -17,7 +30,7 @@ const listBangunan = [
       "Gedung Sate dibangun pada tahun 1920-1924 sebagai bagian dari program pemindahan pusat militer pemerintah Hindia Belanda ke Bandung.",
   },
   {
-    id: 2,
+    id: 3,
     title: "Monumen Perjuangan Rakyat Jawa Barat",
     masa_pembangunan: {
       tahun_mulai: 1991,
@@ -25,22 +38,9 @@ const listBangunan = [
     },
     address: "Jl. Dipatiukur No.48, Bandung",
     image:
-      "https://img.bandung.go.id/images/news/2022/09/09/header/166272905353-yuk-mengenal-monumen-perjuangan-jawa-barat.jpeg",
+      "https://asset-2.tstatic.net/tribunnewswiki/foto/bank/images/1-Monumen-Perjuangan-Rakyat-Jawa-Barat.jpg",
     sejarah:
       "Monumen ini berhadapan langsung dengan Gedung Sate dan membelakangi Gunung Tangkuban Parahu. ",
-  },
-  {
-    id: 3,
-    title: "Gedung Merdeka",
-    masa_pembangunan: {
-      tahun_mulai: 1895,
-      tahun_selesai: 1895,
-    },
-    address: "Jl. Asia Afrika No.65, Bandung",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/0/01/Gedung.Merdeka.jpg",
-    sejarah:
-      "Gedung Merdeka awalnya merupakan Societeit Concordia, tempat rekreasi ekspatriat Belanda di Bandung.",
   },
 ];
 
