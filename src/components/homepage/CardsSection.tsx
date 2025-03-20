@@ -31,14 +31,16 @@ export default function CardsSection({ content }) {
                 className="max-w-md rounded-[50px] mx-auto text-left overflow-hidden border-none"
                 data-aos={content.id % 2 === 0 ? "fade-left" : "fade-right"}
               >
-                <div className="relative h-72">
-                  <Image
-                    alt={content.title}
-                    src={content.image}
-                    fill
-                    objectFit="cover"
-                  />
-                </div>
+                {content.image && (
+                  <div className="relative h-72">
+                    <Image
+                      alt={content.title}
+                      src={content.image}
+                      fill
+                      objectFit="cover"
+                    />
+                  </div>
+                )}
                 <CardHeader>
                   <CardTitle className="text-lg text-primary">
                     {content.title}

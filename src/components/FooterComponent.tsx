@@ -6,7 +6,7 @@ export default function FooterComponent() {
   const year = new Date().getFullYear();
   return (
     <div
-      className="bg-primary text-primary-foreground rounded-tr-3xl rounded-tl-3xl lg:rounded-tl-[100px] lg:rounded-tr-[100px]"
+      className="bg-black text-primary border-primary border-2 mt-1 rounded-tr-3xl rounded-tl-3xl lg:rounded-tl-[100px] lg:rounded-tr-[100px]"
       data-aos="fade-up"
     >
       <div className="w-[90%] mx-auto py-6 space-y-5">

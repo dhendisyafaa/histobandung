@@ -28,8 +28,24 @@
         "image": "/images/cards/card-funfact.png",
         "title": "FUN FACT BANGUNAN BERSEJARAH DI KOTA BANDUNG",
         "description": "Lihat fakta menarik bangunan bersejarah di Kota Bandung.",
-        "buttonText": "Lihat FAkta Menarik",
+        "buttonText": "Lihat Fakta Menarik",
         "href": "/funfact"
+      },
+      {
+        "id": 3,
+        "image": "",
+        "title": "TEMPO DOELOE",
+        "description": "Galeri foto keadaan Bandung tempo dulu yang menarik untuk dilihat.",
+        "buttonText": "Lihat galeri",
+        "href": "/tempo-dulu"
+      },
+      {
+        "id": 4,
+        "image": "",
+        "title": "TES PEMAHAMAN KAMU",
+        "description": "Uji pengetahuanmu tentang sejarah yang ada di Kota Bandung.",
+        "buttonText": "Mulai kuis",
+        "href": "/quiz"
       }
     ]
   }

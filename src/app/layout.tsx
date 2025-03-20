@@ -48,12 +48,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="id-ID" suppressHydrationWarning>
+    <html lang="id-ID" className="dark" suppressHydrationWarning>
       <AOSInit />
       <body className={`${plusJakartaSans.className} antialiased`}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >

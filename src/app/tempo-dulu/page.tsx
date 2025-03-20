@@ -128,7 +128,7 @@ export default function BandungTempoDulu() {
         Foto-Foto Bandung Tempo Dulu
       </h1>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {fotoBandungTempoDulu.map((foto) => (
           <div
             key={foto.id}
