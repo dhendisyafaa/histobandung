@@ -14,7 +14,7 @@ export default function FooterComponent() {
           <div className="flex flex-col gap-3 w-full justify-center">
             <Link href={"/"} className="w-fit">
               <Image
-                src="/images/Histobandung-logo.jpg"
+                src="/images/histobandung-logo.png"
                 height={60}
                 width={60}
                 alt="Histobandung-logo"

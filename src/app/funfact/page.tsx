@@ -49,8 +49,8 @@ export default function FunFactList() {
             />
 
             {/* Konten Fun Fact */}
-            <div className="p-4 h-full bg-white dark:bg-gray-800">
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
+            <div className="p-4 h-full bg-white dark:bg-black">
+              <h3 className="text-xl font-semibold text-primary">
                 {item.title}
               </h3>
               <p className="text-gray-600 dark:text-gray-400 text-sm mt-2">

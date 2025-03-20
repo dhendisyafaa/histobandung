@@ -5,7 +5,7 @@
     "subTitle": [
       "Menelusuri ",
       "<span class='font-bold'>jejak sejarah, tempat bersejarah, dan kisah menarik</span> ",
-      "di balik berbagai lokasi ikonik di Kota Bandung. ",
+      "di balik berbagai bangunan bersejarah di Kota Bandung. ",
       "<span class='font-bold'>Pelajari sejarah dan temukan cerita tersembunyi</span> ",
       "tentang kota yang penuh kenangan ini."
     ],
@@ -25,11 +25,11 @@
       },
       {
         "id": 2,
-        "image": "/images/cards/card-quiz.png",
-        "title": "SEBERAPA TAU KAMU TENTANG SEJARAH BANDUNG?",
-        "description": "Uji pengetahuanmu tentang sejarah Kota Bandung melalui kuis interaktif ini!",
-        "buttonText": "Mulai Kuis",
-        "href": "/quiz-sejarah"
+        "image": "/images/cards/card-funfact.png",
+        "title": "FUN FACT BANGUNAN BERSEJARAH DI KOTA BANDUNG",
+        "description": "Lihat fakta menarik bangunan bersejarah di Kota Bandung.",
+        "buttonText": "Lihat FAkta Menarik",
+        "href": "/funfact"
       }
     ]
   }

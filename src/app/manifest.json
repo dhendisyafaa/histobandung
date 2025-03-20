@@ -3,7 +3,7 @@
   "short_name": "Histobandung",
   "description": "Histobandung menyediakan materi untuk mempelajari sejarah Kota Bandung seperti membahas bangunan bersejarah yang disertain foto-foto tempo dulu.",
   "start_url": "/",
-  "theme_color": "#405D72",
+  "theme_color": "#010825",
   "background_color": "#010825",
   "display": "standalone",
   "orientation": "any",
